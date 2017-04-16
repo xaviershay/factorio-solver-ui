@@ -1,3 +1,9 @@
+## Notes
+
+* https://github.com/uber/react-digraph/blob/master/src/components/graph-view.js:334 probably need to add a handler to create nodes on drag finish.
+* Need a "list of things" component
+* Probably need a "dropped element on canvas" hook
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -6,7 +6,16 @@ import GraphView from 'react-digraph'
 class App extends Component {
   render() {
     return (
-      <Graph/>
+        <div>
+          <h1>Hello</h1>
+          <ul>
+            <li>copper-plate</li>
+            <li>copper-cable</li>
+          </ul>
+          <div>
+            <Graph/>
+          </div>
+        </div>
     );
   }
 }
@@ -32,6 +41,7 @@ const SPECIAL_TYPE = "special";
 const SPECIAL_CHILD_SUBTYPE = "specialChild";
 const EMPTY_EDGE_TYPE = "emptyEdge";
 const SPECIAL_EDGE_TYPE = "specialEdge";
+
 // NOTE: Edges must have 'source' & 'target' attributes
 // In a more realistic use case, the graph would probably originate
 // elsewhere in the App or be generated from some other state upstream of this component.
