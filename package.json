@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-digraph": "^1.0.10",
+    "react-dom": "^15.5.4",
+    "d3": "^4.1.1",
+    "radium": "^0.18.1",
+    "react-icons": "^2.2.1"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
